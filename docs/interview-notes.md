@@ -27,3 +27,31 @@ Examples:
 - logging
 - error handling
 - CORS
+
+## Git Remote
+
+A remote repository is a version of the Git repository hosted on another system such as GitHub.
+
+"origin" is the conventional default name for the primary remote repository.
+
+## Git Branch
+
+A branch is an independent line of development that allows developers to build features or fixes without immediately changing the main branch.
+
+## PostgreSQL
+
+PostgreSQL is a relational database management system.
+
+Relational databases organize data into tables and use relationships between tables.
+
+## Connection Pool
+
+A connection pool maintains reusable database connections instead of creating a new database connection for every request.
+
+## Environment Variables
+
+Environment variables are used to store configuration outside the source code.
+
+Examples include database URLs, API keys, ports, and secret keys.
+
+Sensitive environment variables should not be committed to Git.
