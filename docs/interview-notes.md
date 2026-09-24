@@ -60,3 +60,7 @@ Sensitive environment variables should not be committed to Git.
 ## Referential integrity 
 
 Referential integrity means relationships between tables remain valid. A foreign key prevents a child record from referencing a parent record that does not exist.
+
+## Type definitions:
+
+TypeScript type-definition files describe the types exposed by JavaScript libraries. Packages under @types provide type information for libraries that do not include their own TypeScript definitions. They are usually installed as development dependencies because they are used for type checking rather than application runtime.
