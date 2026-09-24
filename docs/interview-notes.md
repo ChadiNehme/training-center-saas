@@ -55,3 +55,8 @@ Environment variables are used to store configuration outside the source code.
 Examples include database URLs, API keys, ports, and secret keys.
 
 Sensitive environment variables should not be committed to Git.
+
+
+## Referential integrity 
+
+Referential integrity means relationships between tables remain valid. A foreign key prevents a child record from referencing a parent record that does not exist.
