@@ -3,7 +3,7 @@ import cors from 'cors'
 import 'dotenv/config'
 import { pool } from "./config/database.js";
 import authRoutes from "./modules/auth/auth.routes.js";
-
+import userRoutes from "./modules/users/users.routes.js";
 const app = express()
 const PORT = process.env.PORT || 5000
 
@@ -11,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
+app.use("/api/users", userRoutes);
 
 app.get("/health/database", async (req, res) => {
   try {

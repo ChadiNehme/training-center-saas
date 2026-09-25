@@ -64,3 +64,11 @@ Referential integrity means relationships between tables remain valid. A foreign
 ## Type definitions:
 
 TypeScript type-definition files describe the types exposed by JavaScript libraries. Packages under @types provide type information for libraries that do not include their own TypeScript definitions. They are usually installed as development dependencies because they are used for type checking rather than application runtime.
+
+## Authentication
+
+verifies a user’s identity, for example by checking a JWT.
+
+## Authorization
+
+determines what an authenticated user is allowed to do, for example allowing only OWNER and ADMIN roles to create users.
